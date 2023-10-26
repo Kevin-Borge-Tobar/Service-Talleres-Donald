@@ -1,7 +1,6 @@
 package com.borge.service_taller_donald.services;
 
-import com.borge.service_taller_donald.entities.DetallePago;
-import com.borge.service_taller_donald.entities.DetallePedio;
+import com.borge.service_taller_donald.entities.DetallePedido;
 import com.borge.service_taller_donald.repositories.DetallePedidoRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

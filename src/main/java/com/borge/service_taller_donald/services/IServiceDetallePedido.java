@@ -1,6 +1,6 @@
 package com.borge.service_taller_donald.services;
 
-import com.borge.service_taller_donald.entities.DetallePedio;
+import com.borge.service_taller_donald.entities.DetallePedido;
 
 import java.util.List;
 
