@@ -1,5 +1,6 @@
 package com.borge.service_taller_donald.controllers;
 
+
 import com.borge.service_taller_donald.entities.Cita;
 import com.borge.service_taller_donald.entities.ContratoLaboral;
 import com.borge.service_taller_donald.services.IServiceCita;
@@ -15,6 +16,7 @@ import java.util.Map;
 
 @RestController
 @AllArgsConstructor
+@RequestMapping("/cita")
 @CrossOrigin(origins = "http://localhost:4200")
 public class ControllerCita {
   private IServiceCita serviceCita;
